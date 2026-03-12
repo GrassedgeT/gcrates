@@ -1,0 +1,13 @@
+node_modules/
+dist/
+public/graph.gcr
+public/probe.html
+public/vite.svg
+/gcrates.js
+/gcrates.d.ts
+/gcrates_bg.wasm
+/gcrates_bg.wasm.d.ts
+.vscode/
+README.md
+src/assets/
+src/lib/

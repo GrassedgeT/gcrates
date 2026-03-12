@@ -3,7 +3,24 @@ name = "gcrates"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+crate-type = ["cdylib", "rlib"]
+
 [dependencies]
+anyhow = "1.0.102"
+bytemuck = { version = "1.25.0", features = ["derive"] }
+clap = { version = "4.5.60", features = ["derive"] }
+csv = "1.4.0"
 flate2 = "1.1.9"
+petgraph = "0.8.3"
 reqwest = { version = "0.13.2", features = ["blocking"] }
+semver = "1.0.27"
 tar = "0.4.44"
+
+[target.wasm32-unknown-unknown.dependencies]
+console_error_panic_hook = "0.1.7"
+js-sys = "0.3.91"
+wasm-bindgen = "0.2.114"
+wasm-bindgen-futures = "0.4.64"
+web-sys = { version = "0.3.91", features = ["Window", "Document", "HtmlCanvasElement", "console"] }
+wgpu = "28.0.0"
