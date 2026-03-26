@@ -4,6 +4,8 @@
 
 A visualization tool for exploring the crates.io dependency graph in 3D space.
 
+![alt text](assets/{20617482-86FA-4973-B6F2-4ED85490F88B}.png)
+![alt text](assets/{B246529C-EBA3-4B19-8CA5-D5DC42C70EA8}.png)
 ## Tech Stack
 
 ### Backend
