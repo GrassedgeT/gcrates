@@ -82,7 +82,7 @@ cargo run -- inspect [--graph <PATH>] [--crate <NAME>]
 - `--graph`: Graph file path (default: `artifacts/graph.gcr`)
 - `--crate`: Specific crate to inspect (optional)
 
-### Frontend Development
+### Launch Frontend
 
 ```bash
 cd frontend
