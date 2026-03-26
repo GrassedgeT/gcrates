@@ -9,19 +9,14 @@ A visualization tool for exploring the crates.io dependency graph in 3D space.
 ## Tech Stack
 
 ### Backend
-- **Rust** - Core language for graph processing and WASM compilation
 - **petgraph** - Graph data structure and algorithms
 - **csv** - CSV parsing for crates.io database dump
-- **reqwest** - HTTP client for downloading database dumps
 - **flate2 & tar** - Compression and archive handling
 - **wgpu** - GPU rendering (WebGPU)
 - **wasm-bindgen** - Rust-to-JavaScript bindings
-- **web-sys** - Web APIs bindings
 
 ### Frontend
 - **Svelte 5** - UI framework
-- **TypeScript** - Type-safe JavaScript
-- **Vite** - Build tool and dev server
 - **wasm-pack** - WASM packaging and bundling
 
 ## Project Structure
